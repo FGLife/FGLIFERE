@@ -1,0 +1,105 @@
+/*-----------------------------------------------------------------------------------
+
+    about.less
+
+-----------------------------------------------------------------------------------*/
+/* About Page
+-----------------------------------------------------------------*/
+.about-page .feature-box h3 {
+  font-size: 15px;
+}
+.about-page .feature-box.fbox-center:not(.fbox-bg) h3:after {
+  display: none;
+}
+.about-page p {
+  margin-bottom: 15px;
+}
+.about-page .icon-leadership:before {
+  content: "";
+  background-image: url(images/icons/icon-leadership.png);
+  display: block;
+  width: 65px;
+  height: 55px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 19px;
+  position: relative;
+}
+.about-page .icon-ratings:before {
+  content: "";
+  background-image: url(images/icons/icon-ratings.png);
+  display: block;
+  width: 85px;
+  height: 62px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 37px;
+  position: relative;
+  transform: scale(0.94);
+}
+.about-page .icon-responsibility:before {
+  content: "";
+  background-image: url(images/icons/icon-responsibility.png);
+  display: block;
+  width: 63px;
+  height: 63px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 17px;
+  position: relative;
+}
+.about-page .icon-culture:before {
+  content: "";
+  background-image: url(images/icons/icon-culture.png);
+  display: block;
+  width: 70px;
+  height: 64px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 29px;
+  position: relative;
+}
+.about-page .icon-directors:before {
+  content: "";
+  background-image: url(images/icons/icon-directors.png);
+  display: block;
+  width: 76px;
+  height: 43px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 24px;
+  position: relative;
+}
+.about-page .icon-careers:before {
+  content: "";
+  background-image: url(images/icons/icon-careers.png);
+  display: block;
+  width: 72px;
+  height: 69px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  top: 11px;
+  position: relative;
+  transform: scale(0.94);
+}
+.testimonials-section {
+  padding: 30px 0px;
+  background-color: #c8dadd !important;
+}
+.testimonials-section h3 {
+  color: #5a6771;
+  font-size: 20px;
+}
+.testimonials-section .testi-content p {
+  min-height: 0;
+  margin-bottom: -12px;
+}
+.testimonials-section .testi-meta {
+  font-size: 15px;
+}
+.testimonials-section .testi-meta span {
+  font-size: 15px;
+}
+.testimonials-section .testimonial.testimonial-full .flex-control-nav {
+  margin-top: 10px;
+}

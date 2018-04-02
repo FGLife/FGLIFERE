@@ -1,0 +1,117 @@
+/*-----------------------------------------------------------------------------------
+
+    footer.less
+
+-----------------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+    Footer
+-----------------------------------------------------------------*/
+
+
+#footer {
+    position: relative;
+    background-color: #009999;
+    border-top: 0px solid rgba(0,0,0,0.2);
+  //border-top: 5px solid rgba(0,0,0,0.2);
+    .footer-widgets-wrap {
+        position: relative;
+        padding: 30px 0 40px 0;
+    }
+    .btn-success {
+	    font-size: 12px;
+        padding: 8px 12px;
+        width: 37%;
+        margin-left: -2px;
+        height: 34px;
+    }
+}
+
+.footer-widgets-wrap {
+    .col_full,
+    .col_half,
+    .col_one_third,
+    .col_two_third,
+    .col_three_fourth,
+    .col_one_fourth,
+    .col_one_fifth,
+    .col_two_fifth,
+    .col_three_fifth,
+    .col_four_fifth,
+    .col_one_sixth,
+    .col_five_sixth {
+        margin-bottom: 0;
+    }
+}
+
+#copyrights {
+    padding: 20px 0 0px 0px;
+    background-color: #009999);
+    font-size: @font-size-base;
+    line-height: @line-height-content;
+    i {
+        &.footer-icon {
+            position: relative;
+            top: 1px;
+            font-size: @font-size-base;
+            width: 14px;
+            text-align: center;
+            margin-right: 3px;
+        }
+    }
+    .col_half {
+        margin-bottom: 0 !important;
+    }
+    a {
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    .tright {
+        a {
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    p {
+	    margin-bottom: 20px;
+	    font-size: 14px;
+    }
+    a {
+	    color: #5c666f;
+        &:hover {
+	    color: #5c666f;
+	    text-decoration: underline !important;
+	    }
+    }
+}
+
+.copyright-links {
+    a {
+        display: inline-block;
+        margin: 0 3px;
+        color: #fff;
+        border-bottom: 1px dotted #444;
+        &:hover {
+            color: #555;
+            border-bottom: 1px solid #666;
+        }
+    }
+}
+
+.copyrights-menu {
+    margin-bottom: 10px;
+    a {
+        font-size: @font-size-base;
+        margin: 0 10px;
+        border-bottom: 0 !important;
+    }
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+

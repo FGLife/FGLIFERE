@@ -1,0 +1,98 @@
+/*-----------------------------------------------------------------------------------
+
+    contact.less
+
+-----------------------------------------------------------------------------------*/
+
+
+	/* Contact Page - paul
+-----------------------------------------------------------------*/
+
+section.contact-top-container {
+    background: url('images/contact/contact-agent.jpg');
+    background-size: cover;
+    position: relative;
+    &.policyholder{
+	    background: url('images/contact/contact.jpg');
+	    background-size: cover;
+    }
+    .heading-block {
+        h1 {
+            font-size: 38px;
+            text-transform: none;
+            font-weight: 500;
+        }
+    }
+    .search-bar {
+        max-width: 570px;
+        padding-left: 25px;
+        padding-right: 25px;
+        input.form-control {
+            border-radius: 0px;
+        }
+        span.input-group-btn {
+            border-radius: 0px;
+        }
+        input {
+            background: url('images/icons/search-icon.png') no-repeat 35px 13px;
+            background-color: #fff;
+            padding-left: 80px !important;
+            width: 100% !important;
+        }
+        .input-group {
+            width: 100%;
+        }
+    }
+    .contact-page {
+        .tabs.tabs-alt {
+            ul.tab-nav {
+                li.ui-tabs-active {
+                    a {
+                        border: none;
+                        border-bottom: 2px solid #1ABC9C;
+                    }
+                }
+            }
+        }
+        ul.tab-nav.clearfix.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+            margin-bottom: 25px;
+        }
+        ul.tab-nav {
+            li {
+                a {
+                    text-transform: uppercase;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    h4.blue-heading {
+        color: @fgl-blue;
+        font-size: 20px !important;
+    }
+    .contact-hours {
+        font-size: 15px;
+        line-height: 1.4 !important;
+        margin-bottom: 10px;
+    }
+    .contact-number {
+        font-weight: bold;
+        font-size: 15px;
+        color: #5a6771;
+    }
+    p.hours-title {
+        line-height: 1.3 !important;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        span {
+            font-weight: bold;
+        }
+    }
+    form.contact-page-form {
+        button#submit-button {
+            width: 100%;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}
