@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db11e003-b51b-4943-bde3-a44b606e7620" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change beforePath="$PROJECT_DIR$/app/about.html" afterPath="$PROJECT_DIR$/app/about.html" />
-      <change beforePath="$PROJECT_DIR$/app/contact-hubspot.html" afterPath="$PROJECT_DIR$/app/contact-hubspot.html" />
-      <change beforePath="$PROJECT_DIR$/app/contact-php.html" afterPath="$PROJECT_DIR$/app/contact-php.html" />
-      <change beforePath="$PROJECT_DIR$/app/contact.html" afterPath="$PROJECT_DIR$/app/contact.html" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/management.html" afterPath="$PROJECT_DIR$/app/management.html" />
-      <change beforePath="$PROJECT_DIR$/app/solutions.html" afterPath="$PROJECT_DIR$/app/solutions.html" />
-      <change beforePath="$PROJECT_DIR$/app/website-terms.html" afterPath="$PROJECT_DIR$/app/website-terms.html" />
+      <change beforePath="$PROJECT_DIR$/app/sitemap.xml" afterPath="$PROJECT_DIR$/app/sitemap.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/error.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2637">
               <caret line="84" column="47" lean-forward="true" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -121,6 +123,7 @@
         <option value="$PROJECT_DIR$/app/solutions.html" />
         <option value="$PROJECT_DIR$/app/website-terms.html" />
         <option value="$PROJECT_DIR$/app/error.html" />
+        <option value="$PROJECT_DIR$/app/sitemap.xml" />
       </list>
     </option>
   </component>
@@ -159,6 +162,11 @@
             <path>
               <item name="FGLIFERE" type="b2602c69:ProjectViewProjectNode" />
               <item name="FGLIFERE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FGLIFERE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FGLIFERE" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522681687629</updated>
       <workItem from="1522681689092" duration="644000" />
-      <workItem from="1522682347131" duration="187000" />
+      <workItem from="1522682347131" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="831000" />
+    <option name="totallyTimeSpent" value="943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="23" width="2469" height="1251" extended-state="0" />
@@ -358,6 +366,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2637">
           <caret line="84" column="47" lean-forward="true" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding />
         </state>
       </provider>
