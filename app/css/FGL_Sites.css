@@ -45,26 +45,25 @@
 @import url("//hello.myfonts.net/count/363e92");
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-MdIt';src: url('fonts/363E92_0_0.eot');src: url('fonts/363E92_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_0_0.woff2') format('woff2'),url('fonts/363E92_0_0.woff') format('woff'),url('fonts/363E92_0_0.ttf') format('truetype'),url('fonts/363E92_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-MdIt';src:url('fonts/363E92_0_unhinted_0.woff2') format('woff2'),url('fonts/363E92_0_unhinted_0.woff') format('woff'),url('fonts/363E92_0_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-Md';src: url('fonts/363E92_1_0.eot');src: url('fonts/363E92_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_1_0.woff2') format('woff2'),url('fonts/363E92_1_0.woff') format('woff'),url('fonts/363E92_1_0.ttf') format('truetype'),url('fonts/363E92_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-Md';src:url('fonts/363E92_1_unhinted_0.woff2') format('woff2'),url('fonts/363E92_1_unhinted_0.woff') format('woff'),url('fonts/363E92_1_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-Roman';src: url('fonts/363E92_2_0.eot');src: url('fonts/363E92_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_2_0.woff2') format('woff2'),url('fonts/363E92_2_0.woff') format('woff'),url('fonts/363E92_2_0.ttf') format('truetype'),url('fonts/363E92_2_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-Roman';src:url('fonts/363E92_2_unhinted_0.woff2') format('woff2'),url('fonts/363E92_2_unhinted_0.woff') format('woff'),url('fonts/363E92_2_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-It';src: url('fonts/363E92_3_0.eot');src: url('fonts/363E92_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_3_0.woff2') format('woff2'),url('fonts/363E92_3_0.woff') format('woff'),url('fonts/363E92_3_0.ttf') format('truetype'),url('webfonts/363E92_3_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-It';src:url('fonts/363E92_3_unhinted_0.woff2') format('woff2'),url('fonts/363E92_3_unhinted_0.woff') format('woff'),url('fonts/363E92_3_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-Bd';src: url('fonts/363E92_4_0.eot');src: url('fonts/363E92_4_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_4_0.woff2') format('woff2'),url('fonts/363E92_4_0.woff') format('woff'),url("fonts/363E92_4_0.ttf') format('truetype'),url('webfonts/363E92_4_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-Bd';src:url('fonts/363E92_4_unhinted_0.woff2') format('woff2'),url('fonts/363E92_4_unhinted_0.woff') format('woff'),url('fonts/363E92_4_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-BdIt';src: url('fonts/363E92_5_0.eot');src: url('fonts/363E92_5_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_5_0.woff2') format('woff2'),url('fonts/363E92_5_0.woff') format('woff'),url('webfonts/363E92_5_0.ttf') format('truetype'),url('fonts/363E92_5_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-BdIt';src:url('fonts/363E92_5_unhinted_0.woff2') format('woff2'),url('fonts/363E92_5_unhinted_0.woff') format('woff'),url('fonts/363E92_5_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-Th';src: url('fonts/363E92_6_0.eot');src: url('fonts/363E92_6_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_6_0.woff2') format('woff2'),url('fonts/363E92_6_0.woff') format('woff'),url('fonts/363E92_6_0.ttf') format('truetype'),url('webfonts/363E92_6_0.svg#wf') format('svg');}
+@font-face {font-family: 'HelveticaNeueLTStd-Th';src:url('fonts/363E92_6_unhinted_0.woff2') format('woff2'),url('fonts/363E92_6_unhinted_0.woff') format('woff'),url('fonts/363E92_6_unhinted_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'HelveticaNeueLTStd-ThIt';src: url('fonts/363E92_7_0.eot');src: url('fonts/363E92_7_0.eot?#iefix') format('embedded-opentype'),url('fonts/363E92_7_0.woff2') format('woff2'),url('fonts/363E92_7_0.woff') format('woff'),url('webfonts/363E92_7_0.ttf') format('truetype'),url('fonts/363E92_7_0.svg#wf') format('svg');}
- 
+@font-face {font-family: 'HelveticaNeueLTStd-ThIt';src:url('fonts/363E92_7_unhinted_0.woff2') format('woff2'),url('fonts/363E92_7_unhinted_0.woff') format('woff'),url('fonts/363E92_7_unhinted_0.ttf') format('truetype');}

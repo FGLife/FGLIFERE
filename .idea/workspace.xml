@@ -4,6 +4,7 @@
     <list default="true" id="db11e003-b51b-4943-bde3-a44b606e7620" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/css/FGL_Sites.css" afterPath="$PROJECT_DIR$/app/css/FGL_Sites.css" />
+      <change beforePath="$PROJECT_DIR$/app/style.css" afterPath="$PROJECT_DIR$/app/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,21 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44701">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="14432" column="19" lean-forward="true" selection-start-line="14432" selection-start-column="19" selection-end-line="14432" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FGL_Sites.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FGL_Sites.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/FGL_Sites.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="885">
+              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -115,6 +116,7 @@
     <findStrings>
       <find>F&amp;G Re ltd</find>
       <find>FGRELTD</find>
+      <find>Proxima</find>
     </findStrings>
     <replaceStrings>
       <replace>F&amp;G Life Re</replace>
@@ -137,6 +139,7 @@
         <option value="$PROJECT_DIR$/app/sitemap.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/css/FGL_Sites.css" />
+        <option value="$PROJECT_DIR$/app/style.css" />
       </list>
     </option>
   </component>
@@ -244,12 +247,12 @@
       <updated>1522681687629</updated>
       <workItem from="1522681689092" duration="644000" />
       <workItem from="1522682347131" duration="1844000" />
-      <workItem from="1523291654967" duration="444000" />
+      <workItem from="1523291654967" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2932000" />
+    <option name="totallyTimeSpent" value="4238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="2560" height="1440" extended-state="6" />
@@ -478,18 +481,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style.css">
+    <entry file="file://$PROJECT_DIR$/app/css/FGL_Sites.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44701">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="885">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/FGL_Sites.css">
+    <entry file="file://$PROJECT_DIR$/app/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="14432" column="19" lean-forward="true" selection-start-line="14432" selection-start-column="19" selection-end-line="14432" selection-end-column="19" />
           <folding />
         </state>
       </provider>
