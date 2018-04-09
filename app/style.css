@@ -3522,11 +3522,10 @@ body.stretched .container-fullwidth .breadcrumb {
   background-attachment: fixed;
 }
 #page-title.page-title-parallax {
-  padding: 100px 0;
+  padding: 80px 0;
   text-shadow: none;
   border-bottom: none;
   background-color: #009999;
-  background-image: none;
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
