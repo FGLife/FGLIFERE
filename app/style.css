@@ -12353,7 +12353,7 @@ body:not(.device-touch) .team-overlay {
   position: relative;
   overflow: hidden;
   text-align: left;
-  height: 250px;
+  height: 360px;
 }
 .team.team-list .team-title {
   padding-top: 0;
