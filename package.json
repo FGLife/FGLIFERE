@@ -1,0 +1,43 @@
+{
+    "name": "npm-scripts",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "scss": "node-sass -o dist/css Source/scss/style.scss",
+      "less": "lessc Source/less/style.less dist/css/stylel.less",
+      "movecss": "copyfiles -a -u 1 ./Source/styles/**/*.css dist/ && echo 'css files copied'",
+      "moveimg": "copyfiles -a -u 1 ./Source/images/**/*.{png,jpg,gif} dist/ && echo 'image files copied'",
+      "movejs": "copyfiles -a -u 1 ./Source/scripts/**/*.js dist/ && echo 'script files copied'",
+      "moveinclude": "copyfiles -a -u 1 ./Source/include/**/*.* dist/ && echo 'include files copied'",
+      "movefonts": "copyfiles -a -u 1 ./Source/fonts/**/*.* dist/ && echo 'font files copied'",
+      "concat:css": "concat -o dist/css/styles.css dist/css/style.css Source/css/**/*.css",
+      "mkjsdir": "mkdirp dist/js -p",
+      "concat:js": "mkdirp dist/js -p && concat-glob-cli -f ./Source/**/*.js -o dist/js/scripts.js",
+      "concat": "npm run concat:css && npm run concat:js",
+      "cssmin": "cleancss -o dist/css/styles.min.css dist/css/styles.css",
+      "uglify": "uglifyjs -o dist/js/scripts.min.js dist/js/scripts.js",
+      "imagemin": "imagemin --out-dir=dist/img Source/images/**/*.{png,jpg,gif}",
+      "build:css": "npm run scss && npm run concat:css && npm run cssmin",
+      "build:js": "npm run movejs",
+      "build:img": "npm run imagemin",
+      "movefaviconsetc": "copyfiles -u 1 ./Source/**/*.{ico,png,txt,config} dist && echo 'favicon and remaining specified files copied'",
+      "movehtml": "copyfiles -u 1 ./Source/**/*.html dist && echo 'Html files copied'",
+      "build": "npm run movecss && npm run movejs && npm run moveimg && npm run movefonts && npm run moveinclude && npm run movefaviconsetc && npm run movehtml",
+      "watch:css": "onchange 'Source/scss/*.scss' -- npm run build:css",
+      "watch:js": "onchange 'Source/js/*.js' -- npm run build:js",
+      "watch": "npm-run-all --parallel watch:*"
+    },
+    "devDependencies": {
+      "clean-css-cli": "^4.1.10",
+      "concat": "^1.0.3",
+      "concat-cli": "^4.0.0",
+      "imagemin-cli": "^3.0.0",
+      "node-sass": "^4.6.0",
+      "npm-run-all": "^4.1.1",
+      "onchange": "^3.2.1",
+      "uglify-js": "^3.1.7"
+    }
+  }
+  
+  
+  
