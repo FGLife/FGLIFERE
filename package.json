@@ -1,27 +1,24 @@
 {
-    "name": "npm-scripts",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-      "movecss": "copyfiles -a -u 1 ./app/styles/**/*.css dist/ && echo 'css files copied'",
-      "moveimg": "copyfiles -a -u 1 ./app/images/**/*.{png,jpg,gif} dist/ && echo 'image files copied'",
-      "movejs": "copyfiles -a -u 1 ./app/scripts/**/*.js dist/ && echo 'script files copied'",
-      "moveinclude": "copyfiles -a -u 1 ./app/include/**/*.* dist/ && echo 'include files copied'",
-      "movefonts": "copyfiles -a -u 1 ./app/fonts/**/*.* dist/ && echo 'font files copied'",
-      "movefaviconsetc": "copyfiles -u 1 ./app/**/*.{ico,png,txt,config} dist && echo 'favicon and remaining specified files copied'",
-      "movehtml": "copyfiles -u 1 ./app/**/*.html dist && echo 'Html files copied'",
-      "build": "npm run movecss && npm run movejs && npm run moveimg && npm run movefonts && npm run moveinclude && npm run movefaviconsetc && npm run movehtml"
-      
-    },
-    "devDependencies": {
-      "clean-css-cli": "^4.1.10",
-      "concat": "^1.0.3",
-      "concat-cli": "^4.0.0",
-      "npm-run-all": "^4.1.1",
-      "onchange": "^3.2.1",
-      "uglify-js": "^3.1.7"
-    }
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "movecss": "copyfiles -a -u 1 ./app/css/**/*.css dist/ && echo 'css files copied'",
+    "moveimg": "copyfiles -a -u 1 ./app/images/**/*.{png,jpg,gif} dist/ && echo 'image files copied'",
+    "movejs": "copyfiles -a -u 1 ./app/js/**/*.js dist/ && echo 'script files copied'",
+    "moveinclude": "copyfiles -a -u 1 ./app/include/**/*.* dist/ && echo 'include files copied'",
+    "movefonts": "copyfiles -a -u 1 ./app/fonts/**/*.* dist/ && echo 'font files copied'",
+    "movefaviconsetc": "copyfiles -u 1 ./app/**/*.{ico,png,txt,config} dist && echo 'favicon and remaining specified files copied'",
+    "movehtml": "copyfiles -u 1 ./app/**/*.html dist && echo 'Html files copied'",
+    "build": "npm run movecss && npm run movejs && npm run moveimg && npm run movefonts && npm run moveinclude && npm run movefaviconsetc && npm run movehtml"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.1.10",
+    "concat": "^1.0.3",
+    "concat-cli": "^4.0.0",
+    "copyfiles": "^2.0.0",
+    "npm-run-all": "^4.1.1",
+    "onchange": "^3.2.1",
+    "uglify-js": "^3.1.7"
   }
-  
-  
-  
+}
