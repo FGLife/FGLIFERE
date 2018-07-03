@@ -13,12 +13,6 @@
     "build": "npm run movecss && npm run movejs && npm run moveimg && npm run movefonts && npm run moveinclude && npm run movefaviconsetc && npm run movehtml"
   },
   "devDependencies": {
-    "clean-css-cli": "^4.1.10",
-    "concat": "^1.0.3",
-    "concat-cli": "^4.0.0",
-    "copyfiles": "^2.0.0",
-    "npm-run-all": "^4.1.1",
-    "onchange": "^3.2.1",
-    "uglify-js": "^3.1.7"
+    
   }
 }
